@@ -1014,17 +1014,16 @@ body .markdown-body
     page-break-after: avoid;
   }
 }
-</style><title>README</title></head><body><article class="markdown-body"><p>Project Name: lab3-part1<br />
-Authors:<br />
-NetIDs:<br />
-Date:</p>
+</style><title>README</title></head><body><article class="markdown-body"><p>Project Name: lab3-part1 <br /><br />
+Authors: <br /><br />
+NetIDs: <br /><br />
+Date: </p>
 <h1 id="description"><a name="user-content-description" href="#description" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Description</h1>
 <p>For this lab, you will expand on your two-motor lab by changing the control method and displaying the input value on two seven-segment displays. The potentiometer will be replaced with a rotary encoder, whose angular position will control the PWM outputs to the motors. In addition, the angular position of the rotary encoder will be displayed on two seven-segment displays.</p>
 <h2 id="expected-outcome"><a name="user-content-expected-outcome" href="#expected-outcome" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Expected Outcome</h2>
 <p>The motors should behave as before, but they will now be controlled by a rotary encoder. The angular position of this rotary encoder should be limited to a reasonable range of values requiring two seven-segment displays to show in full. The example from the videos below below uses a range of 0 to 32 so that there is an exact 50% position at 16, but the minutiae of the range you use are up to you.</p>
-<h1 id="examples"><a name="user-content-examples" href="#examples" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Examples</h1>
-<p><a href="///C://Users/matth/AppData/Roaming/SPB_16.6/ece372a/contract-lab/example-videos/ex1.mp4">Video One</a><br />
-<a href="///C://Users/matth/AppData/Roaming/SPB_16.6/ece372a/contract-lab/example-videos/ex2.mp4">Video Two</a></p>
+<h1 id="example"><a name="user-content-example" href="#example" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Example</h1>
+<p><a href="///C://Users/matth/AppData/Roaming/SPB_16.6/ece372a/contract-lab/example-videos/example.mp4">Example Video</a></p>
 <h1 id="instructions"><a name="user-content-instructions" href="#instructions" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Instructions</h1>
 <p>As before, this lab will require two motors to operate in one of three states: forward, reverse, and idle. The state changes should still be controlled by a button, though the rotary encoder&rsquo;s knob can be pressed to act as such if you wish. To recap, one motor should be at 100% on one half of the input spectrum, linearly decreasing to 0% from the midpoint to the opposite end; the other motor should do the same, but with the input spectrum reversed. That is to say that one motor will be at 100%, the other at 0%, at each end of the input spectrum; which motor is active depends on the end. At the midpoint, they should both be at 100%.</p>
 <p>Rotary encoders use discrete changes in rotation to measure their angular positions or changes therein. They come in two varieties, absolute and incremental; an absolute rotary encoder outputs its angular position, while an incremental one outputs changes in its angular position. The rotary encoders in your Arduino kits are incremental.</p>

@@ -1,7 +1,7 @@
-Project Name: lab3-part1
-Authors:
-NetIDs:
-Date:
+Project Name: lab3-part1 <br />
+Authors: <br />
+NetIDs: <br />
+Date: 
 
 # Description
 For this lab, you will expand on your two-motor lab by changing the control method and displaying the input value on two seven-segment displays. The potentiometer will be replaced with a rotary encoder, whose angular position will control the PWM outputs to the motors. In addition, the angular position of the rotary encoder will be displayed on two seven-segment displays.
